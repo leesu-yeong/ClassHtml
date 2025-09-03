@@ -3,67 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>심플한 포트폴리오</title>
+    <title>야구 명예의 전당</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <header class="main-header">
-        <nav class="main-nav">
-            <a href="#" class="logo">내 포트폴리오</a>
-            <ul class="nav-links">
-                <li><a href="#about">소개</a></li>
-                <li><a href="#projects">프로젝트</a></li>
-                <li><a href="#contact">연락처</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="header-container">
+            <nav class="top-nav">
+                <a href="#" class="logo">야구 명예의 전당</a>
+                <ul class="nav-links">
+                    <li><a href="#">소개</a></li>
+                    <li><a href="#">선수들</a></li>
+                    <li><a href="#">기록</a></li>
+                    <li><a href="#">연락처</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="hero" class="hero">
-            <div class="hero-content">
-                <h1>안녕하세요, 저는 홍길동입니다</h1>
-                <p>웹 개발자로서 사용자 친화적인 웹 경험을 만들고 있습니다.</p>
-                <a href="#projects" class="cta-button">내 작업 보기</a>
-            </div>
-        </section>
-
-        <section id="about" class="section">
-            <h2 class="section-title">소개</h2>
-            <div class="content-wrapper">
-                <p>저는 프론트엔드 개발에 열정을 가진 개발자입니다. HTML, CSS, JavaScript를 사용한 웹사이트 제작 경험이 풍부합니다.</p>
-                <p>항상 새로운 기술을 배우고 더 나은 솔루션을 찾기 위해 노력합니다.</p>
-            </div>
-        </section>
-
-        <section id="projects" class="section bg-light">
-            <h2 class="section-title">프로젝트</h2>
-            <div class="content-wrapper">
-                <div class="project-card">
-                    <h3>프로젝트 1</h3>
-                    <p>반응형 디자인이 적용된 포트폴리오 웹사이트입니다.</p>
-                    <a href="#">자세히 보기</a>
-                </div>
-                <div class="project-card">
-                    <h3>프로젝트 2</h3>
-                    <p>사용자 친화적인 인터페이스의 투두리스트 애플리케이션입니다.</p>
-                    <a href="#">자세히 보기</a>
+        <section class="hero-section">
+            <div class="hero-image-container">
+                <div class="hero-content">
+                    <h1>야구의 역사를 만나다</h1>
+                    <p>전설적인 선수들의 이야기와 불멸의 기록을 탐험해보세요.</p>
+                    <a href="#" class="cta-button">자세히 보기</a>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="section">
-            <h2 class="section-title">연락처</h2>
-            <div class="content-wrapper">
-                <p>저와 함께 일하고 싶으시거나 질문이 있으시면 언제든지 연락주세요.</p>
-                <a href="mailto:your-email@example.com" class="cta-button">이메일 보내기</a>
+        <section class="intro-section">
+            <div class="intro-container">
+                <div class="intro-content">
+                    <h2>야구의 모든 것</h2>
+                    <p>야구 명예의 전당은 야구 팬들을 위한 공간입니다. 우리는 야구의 위대한 순간과 전설을 기립니다.</p>
+                    <p>여기서는 과거의 영웅들을 만나고, 그들의 발자취를 따라가며 야구에 대한 새로운 열정을 발견할 수 있습니다.</p>
+                </div>
+                <div class="cta-button-container">
+                    <a href="#" class="intro-cta-button">명예의 전당 둘러보기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="activities-section">
+            <div class="activities-image-container">
+                <div class="activities-content">
+                    <h2>전설을 기억하며</h2>
+                </div>
+            </div>
+            <div class="activity-cards-container">
+                <div class="activity-card">
+                    <div class="card-image-container">
+                        <img src="https://via.placeholder.com/300x200.png?text=전설적인+투수" alt="전설적인 투수">
+                    </div>
+                    <div class="card-text">
+                        <h3>전설적인 투수</h3>
+                        <p>위대한 투수들의 이야기와 그들의 기록을 만나보세요.</p>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <div class="card-image-container">
+                        <img src="https://via.placeholder.com/300x200.png?text=불멸의+타자" alt="불멸의 타자">
+                    </div>
+                    <div class="card-text">
+                        <h3>불멸의 타자</h3>
+                        <p>홈런왕부터 안타 제조기까지, 전설적인 타자들을 만나보세요.</p>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <div class="card-image-container">
+                        <img src="https://via.placeholder.com/300x200.png?text=최고의+감독" alt="최고의 감독">
+                    </div>
+                    <div class="card-text">
+                        <h3>최고의 감독</h3>
+                        <p>명승부를 만들어낸 역대 최고의 감독들을 조명합니다.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer class="main-footer">
-        <p>&copy; 2025 홍길동. All Rights Reserved.</p>
+    <footer class="footer">
+        <div class="footer-content-container">
+            <div class="footer-info">
+                <h3>주소</h3>
+                <p>서울시 강남구 테헤란로 123</p>
+                <p>Tel: 02-123-4567</p>
+                <p>Email: info@baseballhall.com</p>
+            </div>
+            <div class="footer-social">
+                <h3>소셜 미디어</h3>
+                <ul>
+                    <li><a href="#">인스타그램</a></li>
+                    <li><a href="#">페이스북</a></li>
+                    <li><a href="#">X (트위터)</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact-form">
+                <h3>문의하기</h3>
+                <form>
+                    <input type="text" placeholder="이름" required>
+                    <input type="email" placeholder="이메일" required>
+                    <textarea placeholder="메시지" required></textarea>
+                    <button type="submit">보내기</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 야구 명예의 전당. All rights reserved.</p>
+        </div>
     </footer>
 
 </body>
